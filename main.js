@@ -28,3 +28,6 @@ result.value = Math.tan(result.value);
 function log(){
 result.value = Math.log10(result.value);
 }
+function expo(){
+result.value = Math.pow(result.value,2);
+}
