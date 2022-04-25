@@ -38,11 +38,9 @@ body .container .calculator {
   -webkit-box-shadow: 6px 6px 13px #fff, 6px 6px 13px black;
           box-shadow: 6px 6px 13px #fff, 6px 6px 13px black;
   border-radius: 28px;
-  padding: 20px 16px;
+  padding: 20px 25px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (66px)[6];
-      grid-template-columns: repeat(6, 66px);
   grid-gap: 15px;
 }
 
@@ -53,19 +51,18 @@ body .container .calculator input {
   text-align: right;
   padding: 0 10px;
   font-size: 40px;
-  -webkit-box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px black;
-          box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px black;
   border: none;
   color: #1a1919;
+  margin-bottom: 15px;
 }
 
 body .container .calculator button {
-  -webkit-box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px black;
-          box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px black;
   border: none;
   color: #1a1919;
   font-size: 20px;
+  width: 80px;
   height: 40px;
+  background-color: #fff;
 }
 
 body .container .calculator .AC {
