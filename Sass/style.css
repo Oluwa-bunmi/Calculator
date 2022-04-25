@@ -59,40 +59,51 @@ body .container .calculator input {
 body .container .calculator button {
   border: none;
   color: #1a1919;
+  -webkit-box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #fff;
+          box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #fff;
+  font-weight: bold;
   font-size: 20px;
   width: 80px;
   height: 40px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border-radius: 4px;
+}
+
+body .container .calculator button:hover {
+  -webkit-box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1);
+          box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1);
   background-color: #fff;
 }
 
-body .container .calculator .AC {
+body .container .calculator #AC {
   background-color: #33cc33;
   color: #fff;
 }
 
-body .container .calculator .AC:hover {
-  background-color: #33cc33;
-  color: #fff;
+body .container .calculator #AC:hover {
+  -webkit-box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #2eb82e;
+          box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #2eb82e;
 }
 
-body .container .calculator .equal {
+body .container .calculator #equal {
   background-color: #33ccff;
-}
-
-body .container .calculator .equal:hover {
   color: #fff;
   -webkit-box-shadow: inset 5px 5px 8px #33ccff, inset -5px -5px 8px #33ccff;
           box-shadow: inset 5px 5px 8px #33ccff, inset -5px -5px 8px #33ccff;
 }
 
-body .container .calculator .CE {
-  background-color: #ff3399;
-  color: #fff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+body .container .calculator #equal:hover {
+  -webkit-box-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
+          box-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
 }
 
-body .container .calculator .CE:hover {
+body .container .calculator #CE {
+  background-color: #ff3399;
+  color: #fff;
+}
+
+body .container .calculator #CE:hover {
   -webkit-box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
           box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
 }

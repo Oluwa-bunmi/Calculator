@@ -12,12 +12,12 @@
         <div class="calculator">
            
             <input type="text " placeholder="0" id="inputText">
-            <button onclick="del()" class="CE">CE</button>
+            <button onclick="del()" id="CE">CE</button>
             <button onclick="fact()">x!</button>
             <button  onclick="calculate('(')">(</button>
             <button onclick="calculate(')')">)</button>
             <button onclick="calculate('%')">%</button>
-            <button onclick="clr()" class="AC">AC</button>
+            <button onclick="clr()" id="AC">AC</button>
             <button onclick="sin()">sin</button>
             <button onclick="pi()">π</button>
             <button onclick="calculate(7)">7</button>
@@ -36,17 +36,17 @@
             <button onclick="calculate(1)">1</button>
             <button onclick="calculate(2)">2</button>
             <button onclick="calculate(3)">3</button>
-            <button onclick="calculate('-')" style="font-size: 38px;" >-</button>
+            <button onclick="calculate('-')" style="font-size: 32px;" >-</button>
             <button onclick="expo()">e</button>
             <button onclick="sqr()"> x<sup>2</sup> </button>
             <button onclick="calculate(0)">0</button>
             <button onclick="calculate('.')">.</button>
-            <button onclick="Result()" class="equal">=</button>
-            <button onclick="calculate('+')" style="font-size: 30px;">+</button>
+            <button onclick="Result()" id="equal">=</button>
+            <button onclick="calculate('+')" style="font-size: 25px;">+</button>
         </div>
 
     </div>
-    <progress></progress>
+    <!-- <progress></progress> -->
 
   <script src="main.js"></script>  
 </body>
