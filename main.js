@@ -6,7 +6,7 @@ let Result = () => {
   try {
     result.value = eval(result.value);
   } catch (err) {
-    alert("Syntax Error");
+    alert("SYNTAX ERROR!");
   }
 };
 function clr() {
