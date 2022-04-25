@@ -1,1 +1,1 @@
-# Calculator
+A scientific calculator.
