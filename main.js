@@ -30,9 +30,7 @@ function log() {
 function sqr() {
   result.value = Math.pow(result.value, 2);
 }
-// function root() {
-//   result.value = Math.pow(result.value, 1 / 2);
-// }
+
 function root() {
   result.value = Math.sqrt(result.value);
 }
