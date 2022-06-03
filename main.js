@@ -23,7 +23,7 @@ function cos() {
   result.value = Math.cos(result.value *  Math.PI / 180);
 }
 function tan() {
-  result.value = Math.tan(result.value);
+  result.value = Math.tan(result.value *  Math.PI / 180);
 }
 function log() {
   result.value = Math.log10(result.value);
