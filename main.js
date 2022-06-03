@@ -30,8 +30,11 @@ function log() {
 function sqr() {
   result.value = Math.pow(result.value, 2);
 }
+// function root() {
+//   result.value = Math.pow(result.value, 1 / 2);
+// }
 function root() {
-  result.value = Math.pow(result.value, 1 / 2);
+  result.value = Math.sqrt(result.value);
 }
 function pi() {
   result.value = Math.PI;
@@ -42,11 +45,10 @@ function expo() {
 function fact() {
   var i, num, f;
   f = 1;
-  num=result.value;
-  for(i=1; i<=num; i++){
-      f=f*i;
-
+  num = result.value;
+  for (i = 1; i <= num; i++) {
+    f = f * i;
   }
-  i=i-1;
-  result.value=f;
+  i = i - 1;
+  result.value = f;
 }
