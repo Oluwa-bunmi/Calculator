@@ -34,7 +34,7 @@ function root() {
   result.value = Math.pow(result.value, 1 / 2);
 }
 function pi() {
-  result.value = 3.14159265359;
+  result.value = Math.PI;
 }
 function expo() {
   result.value = 2.71828182846;
