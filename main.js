@@ -16,7 +16,7 @@ function del() {
   result.value = result.value.slice(0, -1);
 }
 function sin() {
-  result.value = Math.sin(result.value);
+  result.value = Math.sin(result.value *  Math.PI / 180);
 }
 function cos() {
   result.value = Math.cos(result.value);
