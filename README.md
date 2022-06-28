@@ -1,2 +1,2 @@
-A scientific calculator.
+Desktop view only.
 Live demo: https://advancedaddingmachine.netlify.app/
